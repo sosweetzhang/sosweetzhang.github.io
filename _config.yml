@@ -1,16 +1,16 @@
 
 # Site settings
-title: Paul E. Soto
-name: Paul E. Soto
+title: Zhang Haotian
+name: Zhang Haotian
 subtitle:  Economist
-email: paul.e.soto@frb.gov
+email: sosweetzhang@mail.ustc.edu.cn
 description: >
    Economist
 baseurl: ""
-url: "https://pesoto.github.io/"
-github_username:  pesoto
-disqus_baseurl: "https://pesoto.github.io/"
-disqus_shortname: https-pesoto-github-io
+url: "https://sosweetzhang.github.io/"
+github_username:  sosweetzhang
+disqus_baseurl: "https://sosweetzhang.github.io/"
+disqus_shortname: https://sosweetzhang.github.io/
 permalink: :title
 google-site-verification: "EBNpnv4GiHJTmePgRajamxrYtJnc6WlqDyWUITDaSMo"
 
@@ -25,7 +25,7 @@ defaults:
     scope:
       path: ""
     values:
-      author: "Paul E. Soto"
+      author: "Zhang Haotian"
 
 
 
@@ -41,7 +41,7 @@ social:
   - name: GitHub
     icon: github
     username: pesoto
-    url: https://github.com/pesoto
+    url: https://sosweetzhang.github.io/
     desc: Fork me on GitHub
     share: false
 
