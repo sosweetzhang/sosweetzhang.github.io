@@ -12,7 +12,7 @@ permalink: /about/
 
 [Email](sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
 
-<img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; float: left;" />
+<img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; align: left;" />
 
 ## Introduction
 
