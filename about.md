@@ -8,7 +8,7 @@ permalink: /about/
 
 [Email](sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
 
-<img src="profile.jpg" alt="Zhang Haotian pic" width=18% algin="left">
+<img src="/profile.jpg" alt="Zhang Haotian pic" width="18%" />
 
 ## Introduction
 
