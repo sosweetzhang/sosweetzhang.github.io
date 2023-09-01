@@ -49,5 +49,5 @@ In my relentless pursuit of AI excellence, I aspire to not only push the boundar
 
 <br>
 <br>
-Download my <a href="https://www.dropbox.com/s/wa3agifqoxwd77u/soto-cv.pdf?dl=0" download="Soto, Paul- CV">CV</a><br>
+Download my <a href="https://github.com/sosweetzhang/sosweetzhang.github.io/blob/main/profile.jpg" download="Zhang Haotian">CV</a><br>
 <br>
