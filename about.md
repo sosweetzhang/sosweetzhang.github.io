@@ -12,41 +12,38 @@ permalink: /about/
 
 ## Introduction
 
-- I am an AI researcher that enjoys:
-  - **Learning, thinking and sharing**. Driven by curiosity. Care about innovative and impactful ideas. Love to share what I learn and think.
-  - **Put thoughts into reality**. Solid systems and engineering background. Open-source practitioner.
-- My research interests include: natural language processing, user modeling and personalization, reinforcement learning and educational data mining.
+I'm an AI researcher who embodies:
 
+- **A Passion for Unraveling, Pioneering, and Illuminating**: Fueled by an insatiable curiosity, I relentlessly explore the uncharted realms of innovative and transformative ideas, and I'm fervently committed to sharing my profound insights with the world.
+
+- **Molding Visions into Reality**: Armed with a robust foundation in systems and engineering, I wield the power to breathe life into abstract concepts, manifesting them into tangible, awe-inspiring solutions. My dedication to the open-source ethos amplifies the impact of my creations.
+
+My research odyssey orbits around:
+- **Educational Data Mining**
+- **Knowledge Tracing**
+- **Student Knowledge Portrait**
+- **Graph Neural Network**
+
+In my relentless pursuit of AI excellence, I aspire to not only push the boundaries of these fields but also illuminate new horizons, spark innovation, and forge powerful collaborations that leave an indelible mark on the world.
 
 ## Education
 
-- _Sept 2017 – July 2023 (estimated)_
+- _Sept 2023 – July 2026 (estimated)_
 
-  PhD Student, School of Computer Science, USTC. (_Advisor: Prof. [Enhong Chen](http://staff.ustc.edu.cn/~cheneh)_).
+  Master Student, School of Computer Science, USTC. (_Advisor: Prof. [Qi Liu](http://staff.ustc.edu.cn/~qiliuql/)_).
 
-- _Sept 2013 – July 2017_
+- _Sept 2019 – July 2023_
 
-  Bachelor, School of Computer Science, USTC
+  Bachelor, Hefei University of Technology, HFUT
 
 ## Experiences
 
-- [BASE Group](https://base.ustc.edu.cn), Group Leader, _Sept 2018 – Present_.
-- [CODIA](https://code.bdaa.pro), Team Leader, Architect, _May 2019 – Present_.
-- National Education Examinations Authority, Research Intern, _Apr 2018 – Aug 2018_.
-- iFLYTEK Co. Ltd., Research Intern, _Aug 2016 – Aug 2017_
+- iFLYTEK Co. Ltd., Research Intern, _Nov 2022 – Sep 2023
 
 
 ## Services & Awards
 
-- Program Committee of SIGIR '23, ACL '23.
-- National Scholarship for Postgraduates, _Sept 2018_.
-- Student Travel Award for KDD'18, _Aug 2018_.
-- Excellent Bachelor Dissertation Award for USTC, _Jun 2017_.
-- First Prize, Parallel Application Challenge (PAC2015), _Nov 2015_.
-- First Prize, The Second Student RDMA Programming Contest, _Oct 2014_.
-- Bronze Prize, Chinese National Olympiad in Informatics (NOI), _Aug 2012_.
-
-
+- Excellent Paper Award for CCFAI'23, _Aug 2023_.
 
 
 
