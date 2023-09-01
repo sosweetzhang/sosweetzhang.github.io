@@ -6,15 +6,7 @@ permalink: /about/
 
 # Haotian Zhang<span class="text-2xl">（张浩天）</span>
 
-| [Email](mailto:sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ) |
-
 [Email](sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
-
-
-| [Email](mailto:sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ) |
-| --- | --- | --- |
-| &nbsp; | &nbsp; | &nbsp; |
-
 
 <table style="border-collapse: collapse;">
   <tr>
@@ -23,7 +15,6 @@ permalink: /about/
     <td style="border: none; text-align: left;"><a href="https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ">Google Scholar</a></td>
   </tr>
 </table>
-
 
 <div style="text-align: left;">
     <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 1; margin-right: auto;" />
