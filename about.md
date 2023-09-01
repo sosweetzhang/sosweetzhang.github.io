@@ -12,7 +12,6 @@ permalink: /about/
     <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 0; margin-right: auto;" />
 </div>
 
-<br>
 
 ## Introduction
 
