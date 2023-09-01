@@ -3,12 +3,53 @@ layout: page
 title: About Me
 permalink: /about/
 ---
-I am a senior economist at the Federal Reserve Board. I also work as an adjunct professor at the University of Maryland in the Robert H. Smith School of Business where I have taught classes on Text Mining and Financial Analytics. Previously, from 2018-2022, I was a financial economist at the Federal Deposit Insurance Corporate (FDIC) where I conducted banking research and developed models to support FDIC operations. In July 2018, I finished my PhD in Economics from the Universitat Pompeu Fabra and Barcelona School of Economics. I started my academic career in mathematics, with a Bachelor's degree in Applied Mathematics from University of California, Berkeley. During my PhD, I spent time working alongside other central banks through an 8 month visit in Germany at the Deutsche Bundesbank and research projects with the Banco de la Rep&uacute;blica of Colombia. Previously, I did internships in the credit department of Moody's Analytics and in various investment funds. Outside of economics and finance, I like learning about natural language processing, innovations in machine learning, Brazilian Jiu Jitsu, and improv comedy.  
 
-##试一试
-### 哈哈哈
-#####还是说
-#######是谁
+# Haotian Zhang<span class="text-2xl">（张浩天）</span>
+
+[GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
+
+<img src="/profile.jpg" alt="avatar" class="h-20 w-20 rounded-full shadow-inner float-right -mt-16" />
+
+## Introduction
+
+- I am an AI researcher that enjoys:
+  - **Learning, thinking and sharing**. Driven by curiosity. Care about innovative and impactful ideas. Love to share what I learn and think.
+  - **Put thoughts into reality**. Solid systems and engineering background. Open-source practitioner.
+- My research interests include: natural language processing, user modeling and personalization, reinforcement learning and educational data mining.
+
+
+## Education
+
+- _Sept 2017 – July 2023 (estimated)_
+
+  PhD Student, School of Computer Science, USTC. (_Advisor: Prof. [Enhong Chen](http://staff.ustc.edu.cn/~cheneh)_).
+
+- _Sept 2013 – July 2017_
+
+  Bachelor, School of Computer Science, USTC
+
+## Experiences
+
+- [BASE Group](https://base.ustc.edu.cn), Group Leader, _Sept 2018 – Present_.
+- [CODIA](https://code.bdaa.pro), Team Leader, Architect, _May 2019 – Present_.
+- National Education Examinations Authority, Research Intern, _Apr 2018 – Aug 2018_.
+- iFLYTEK Co. Ltd., Research Intern, _Aug 2016 – Aug 2017_
+
+
+## Services & Awards
+
+- Program Committee of SIGIR '23, ACL '23.
+- National Scholarship for Postgraduates, _Sept 2018_.
+- Student Travel Award for KDD'18, _Aug 2018_.
+- Excellent Bachelor Dissertation Award for USTC, _Jun 2017_.
+- First Prize, Parallel Application Challenge (PAC2015), _Nov 2015_.
+- First Prize, The Second Student RDMA Programming Contest, _Oct 2014_.
+- Bronze Prize, Chinese National Olympiad in Informatics (NOI), _Aug 2012_.
+
+
+
+
+
 <br>
 <br>
 Download my <a href="https://www.dropbox.com/s/wa3agifqoxwd77u/soto-cv.pdf?dl=0" download="Soto, Paul- CV">CV</a><br>
