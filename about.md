@@ -10,6 +10,19 @@ permalink: /about/
 
 [Email](sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
 
+
+| [Email](mailto:sosweetzhang@mail.ustc.edu.cn) | [GitHub](https://github.com/sosweetzhang/) | [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ) |
+| --- | --- | --- |
+| &nbsp; | &nbsp; | &nbsp; |
+
+<table style="border-collapse: collapse;">
+  <tr>
+    <td style="border: none;"><a href="mailto:sosweetzhang@mail.ustc.edu.cn">Email</a></td>
+    <td style="border: none;"><a href="https://github.com/sosweetzhang/">GitHub</a></td>
+    <td style="border: none;"><a href="https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ">Google Scholar</a></td>
+  </tr>
+</table>
+
 <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; align: left;" />
 
 <div style="text-align: left;">
