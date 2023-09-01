@@ -39,7 +39,7 @@ In my relentless pursuit of AI excellence, I aspire to not only push the boundar
 
 ## Experiences
 
-- iFLYTEK Co. Ltd., Research Intern, _Nov 2022 – Sep 2023
+- iFLYTEK Co. Ltd., Research Intern, _Nov 2022 – Sep 2023_.
 
 
 ## Services & Awards
