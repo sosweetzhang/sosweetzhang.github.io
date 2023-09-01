@@ -15,11 +15,12 @@ permalink: /about/
 | --- | --- | --- |
 | &nbsp; | &nbsp; | &nbsp; |
 
+
 <table style="border-collapse: collapse;">
   <tr>
-    <td style="border: none;"><a href="mailto:sosweetzhang@mail.ustc.edu.cn">Email</a></td>
-    <td style="border: none;"><a href="https://github.com/sosweetzhang/">GitHub</a></td>
-    <td style="border: none;"><a href="https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ">Google Scholar</a></td>
+    <td style="border: none; text-align: left;"><a href="mailto:sosweetzhang@mail.ustc.edu.cn">Email</a></td>
+    <td style="border: none; text-align: left;"><a href="https://github.com/sosweetzhang/">GitHub</a></td>
+    <td style="border: none; text-align: left;"><a href="https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ">Google Scholar</a></td>
   </tr>
 </table>
 
