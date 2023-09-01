@@ -26,7 +26,7 @@ permalink: /about/
 
 
 <div style="text-align: left;">
-    <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 0; margin-right: auto;" />
+    <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 10; margin-right: auto;" />
 </div>
 
 <br>
