@@ -23,11 +23,12 @@ permalink: /about/
   </tr>
 </table>
 
-<img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; align: left;" />
 
 <div style="text-align: left;">
     <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 0; margin-right: auto;" />
 </div>
+
+<br>
 
 ## Introduction
 
