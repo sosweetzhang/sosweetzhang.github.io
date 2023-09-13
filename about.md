@@ -33,11 +33,11 @@ In my relentless pursuit of AI excellence, I aspire to not only push the boundar
 
 - _Sept 2023 – July 2026 (estimated)_
 
-  Master Student, School of Computer Science, USTC. (_Advisor: Prof. [Qi Liu](http://staff.ustc.edu.cn/~qiliuql/)_).
+  Master, School of Data Science,  University of Science and Technology of China (USTC). (_Advisor: Prof. [Qi Liu](http://staff.ustc.edu.cn/~qiliuql/)_).
 
 - _Sept 2019 – July 2023_
 
-  Bachelor, Hefei University of Technology, HFUT
+  Bachelor, School of Computer and Information, Hefei University of Technology (HFUT).
 
 ## Experiences
 
