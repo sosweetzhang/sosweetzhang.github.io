@@ -4,16 +4,8 @@ title: Share
 permalink: /share/
 ---
 
-# Haotian Zhang<span class="text-2xl">（张浩天）</span>
 
-[Email](sosweetzhang@mail.ustc.edu.cn) &nbsp; [GitHub](https://github.com/sosweetzhang/) &nbsp; [Google Scholar](https://scholar.google.com/citations?hl=zh-CN&user=N3V-QjAAAAAJ)
-
-<div style="text-align: left;">
-    <img src="/profile.jpg" alt="Zhang Haotian pic" style="width: 20%; display: block; margin-left: 0; margin-right: auto;" />
-</div>
-
-
-## Introduction
+## Talks
 
 I'm an AI researcher who embodies:
 
@@ -29,7 +21,7 @@ My research odyssey orbits around:
 
 In my relentless pursuit of AI excellence, I aspire to not only push the boundaries of these fields but also illuminate new horizons, spark innovation, and forge powerful collaborations that leave an indelible mark on the world.
 
-## Education
+## Practical Experience
 
 - _Sept 2023 – July 2026 (estimated)_
 
