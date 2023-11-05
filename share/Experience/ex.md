@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Share
-permalink: /share/Experience/ex
+permalink: /share/Experience/ex/
 ---
 
 sxacdsjkc
