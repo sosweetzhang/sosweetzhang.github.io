@@ -6,7 +6,7 @@ permalink: /share/
 
 
 ## Talks
-- [Ex1](https://github.com/sosweetzhang/share/Experience/ex.txt)
+- [Ex1](https://github.com/sosweetzhang/share/Experience/ex.md)
 - [JAX: Compile the Future of Deep Learning to Present](/talks/2022-12-02-JAX.pdf), _Dec 2022_.
 - [How to Organize Related Work](/talks/2022-04-28-如何写相关工作.pdf), _Apr 2022_.
 - [From Programming Assessment to CODIA](/talks/2021-12-08-CODIA.pdf), _Oct 2021_.
