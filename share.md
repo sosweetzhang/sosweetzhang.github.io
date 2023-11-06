@@ -11,5 +11,6 @@ permalink: /share/
 
 ## Experience
 - [Some errors encountered in the use of pytorch on Cuda](/share/Experience/Some_errors_encountered_in_the_use_of_pytorch_on_Cuda.md), _Nov 2023_.
+- [Some tips on use of Linux server](/share/Experience/Some_tips_on_use_of_Linux_server.md), _Nov 2023_.
 
 
