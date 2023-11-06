@@ -10,6 +10,6 @@ permalink: /share/
 - [APGKT: Exploiting Associative Path on Skills Graph for Knowledge Tracing](/share/Talks/PRICAI2022-APGKT.pdf), _Nov 2022_.
 
 ## Experience
-- [Some errors encountered in the use of pytorch on Cuda](/share/Experience/231106.md), _Nov 2023_.
+- [Some errors encountered in the use of pytorch on Cuda](/share/Experience/Some_errors_encountered_in_the_use_of_pytorch_on_Cuda.md), _Nov 2023_.
 
 
