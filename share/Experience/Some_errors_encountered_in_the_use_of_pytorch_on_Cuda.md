@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Some errors encountered in the use of pytorch on Cuda
-permalink: /share/Experience/231106/
+permalink: /share/Experience/231106_1/
 ---
 
 <table><tr><td bgcolor=lightgray><strong>RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cpu! (when checking argument for argument index in method wrapper_gather)</strong></td></tr></table>
