@@ -6,10 +6,6 @@ permalink: /share/
 
 
 ## Talks
-
-- [Some errors encountered in the use of pytorch on Cuda](/share/Experience/231106.md), _Dec 2022_.
-
-## Experience
 - [JAX: Compile the Future of Deep Learning to Present](/talks/2022-12-02-JAX.pdf), _Dec 2022_.
 - [How to Organize Related Work](/talks/2022-04-28-如何写相关工作.pdf), _Apr 2022_.
 - [From Programming Assessment to CODIA](/talks/2021-12-08-CODIA.pdf), _Oct 2021_.
@@ -26,5 +22,8 @@ permalink: /share/
 - [Introduction to Modern C++](/talks/2017-04-21-introduction-to-modern-cpp.pdf), _Apr 2017_.
 - [SCAlable LAnguage Scala](/talks/2016-04-00-scala-slides.pdf), _Apr 2016_.
 - [What is Sage](/talks/2014-09-20-sage.pdf), Software Freedom Day, _Sept 2014_.
+
+## Experience
+- [Some errors encountered in the use of pytorch on Cuda](/share/Experience/231106.md), _Nov 2023_.
 
 
