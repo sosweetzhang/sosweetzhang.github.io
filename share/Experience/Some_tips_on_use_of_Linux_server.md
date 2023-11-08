@@ -19,5 +19,6 @@ _screen -d yourname -> 远程detach某个session_
 
 _screen -d -r yourname -> 结束当前session并回到yourname这个session_
 
+_screen -X -S yourname quit -> 杀死yourname这个session_
 
 <em><a href="https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html" title="">linux screen 命令详解</a> </em>
