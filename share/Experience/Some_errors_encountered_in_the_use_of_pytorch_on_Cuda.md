@@ -4,6 +4,17 @@ title: Some errors encountered in the use of pytorch on Cuda
 permalink: /share/Experience/231106_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"ValueError: multilabel-indicator format is not supported" </strong></td></tr></table>
+
+<em>This is an error encountered in runing "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the proble is solved.</em>
+
+<em>This function expects inputs in a certain format, usually either a 1D array for binary classification or a 2D array for multi-class classification. Adjusting the shape of your input arrays to match these expectations can help resolve this issue. By using .ravel() or another method to reshape your actual and pred arrays to the desired format, you can avoid the error related to the shape mismatch when using metrics.roc_curve(). </em>
+
+<em>In addition, there is a useful function torch.masked_select(x,mask) which can mask the noise in x according to the boolean in mask. Attention that the value in mask is boolean not 0 or 1. More information can be found in following link: </em>
+
+<em><a href="https://zhuanlan.zhihu.com/p/348035584" title="">PyTorch中的masked_select选择函数</a> </em>
+
+
 <table><tr><td bgcolor=lightgray><strong>RuntimeError: Expected all tensors to be on the same device, but found at least two devices, cuda:1 and cpu! (when checking argument for argument index in method wrapper_gather)</strong></td></tr></table>
 
 <em>Here are some useful links to convert data and code from the CPU to the GPU：</em>
