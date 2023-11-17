@@ -6,7 +6,7 @@ permalink: /share/Experience/231106_1/
 
 <table><tr><td bgcolor=lightgray><strong>"ValueError: multilabel-indicator format is not supported" </strong></td></tr></table>
 
-<em>This is an error encountered in runing "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the proble is solved.</em>
+<em>This is an error encountered in runing "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the problem is solved.</em>
 
 <em>This function expects inputs in a certain format, usually either a 1D array for binary classification or a 2D array for multi-class classification. Adjusting the shape of your input arrays to match these expectations can help resolve this issue. By using .ravel() or another method to reshape your actual and pred arrays to the desired format, you can avoid the error related to the shape mismatch when using metrics.roc_curve(). </em>
 
