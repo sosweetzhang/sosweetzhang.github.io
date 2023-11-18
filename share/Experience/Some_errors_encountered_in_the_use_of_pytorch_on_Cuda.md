@@ -6,11 +6,11 @@ permalink: /share/Experience/231106_1/
 
 <table><tr><td bgcolor=lightgray><strong>"ValueError: multilabel-indicator format is not supported" </strong></td></tr></table>
 
-<em>This is an error encountered in runing "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the problem is solved.</em>
+<em>This is an error encountered in running "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the problem is solved.</em>
 
 <em>This function expects inputs in a certain format, usually either a 1D array for binary classification or a 2D array for multi-class classification. Adjusting the shape of your input arrays to match these expectations can help resolve this issue. By using .ravel() or another method to reshape your actual and pred arrays to the desired format, you can avoid the error related to the shape mismatch when using metrics.roc_curve(). </em>
 
-<em>In addition, there is a useful function torch.masked_select(x,mask) which can mask the noise in x according to the boolean in mask. Attention that the value in mask is boolean not 0 or 1. More information can be found in following link: </em>
+<em>In addition, there is a useful function torch.masked_select(x,mask) which can mask the noise in x according to the boolean in mask. Note that the value in mask is boolean not 0 or 1. More information can be found in the following link: </em>
 
 <em><a href="https://zhuanlan.zhihu.com/p/348035584" title="">PyTorch中的masked_select选择函数</a> </em>
 
@@ -26,18 +26,18 @@ permalink: /share/Experience/231106_1/
 <em><a href="https://www.cnblogs.com/picassooo/p/13736843.html" title="">PyTorch查看模型和数据是否在GPU上</a></em>
 
 
-<table><tr><td bgcolor=lightgray><strong>RuntimeError: CUDA error: device-side assert triggered CUDA kernel errors might be asynchronously reported at some other API call,so the stacktrace below might be incorrect. For debugging consider passing CUDA_LAUNCH_BLOCKING=1</strong></td></tr></table>
+<table><tr><td bgcolor=lightgray><strong>RuntimeError: CUDA error: device-side assert triggered CUDA kernel errors might be asynchronously reported at some other API call, so the stacktrace below might be incorrect. For debugging consider passing CUDA_LAUNCH_BLOCKING=1</strong></td></tr></table>
 
 <em>While I tried your code, and it did not give me an error, I can say that usually the best practice to debug CUDA Runtime Errors: device-side assert like yours is to turn collab to CPU and recreate the error. It will give you a more useful traceback error.</em>
 
-<em>Most of the time CUDA Runtime Errors can be the cause of <font color=Blue>some index mismatching</font> so like you tried to train a network with 10 output nodes on a dataset with 15 labels. And the thing with this CUDA error is once you get this error once, you will recieve it for every operation you do with torch.tensors. This forces you to restart your notebook.</em>
+<em>Most of the time CUDA Runtime Errors can be the cause of <font color=Blue>some index mismatching</font> so like you tried to train a network with 10 output nodes on a dataset with 15 labels. And the thing with this CUDA error is once you get this error, you will receive it for every operation you do with torch.tensors. This forces you to restart your notebook.</em>
 
-<em>I suggest you restart your notebook, get a more accuracate traceback by <font color=Blue>moving to CPU</font>, and check the rest of your code especially if you train a model on set of targets somewhere.</em>
+<em>I suggest you restart your notebook, get a more accurate traceback by <font color=Blue>moving to CPU</font>, and check the rest of your code especially if you train a model on the set of targets somewhere.</em>
 
 
 <table><tr><td bgcolor=lightgray><strong>RuntimeError: Expected tensor for argument #1 'indices' to have scalar type Long; but got CUDAType instead (while checking arguments for embedding)</strong></td></tr></table>
 
-<em>I would suggest you to check the input type I had the same issue which solved by <font color=Blue>converting the input type from int32 to int64</font>.(running on win10) ex: x = torch.tensor(train).to(torch.int64)</em>
+<em>I would suggest you check the input type I had the same issue which was solved by <font color=Blue>converting the input type from int32 to int64</font>.(running on win10) ex: x = torch.tensor(train).to(torch.int64)</em>
 
 
 <table><tr><td bgcolor=lightgray><strong>RuntimeError: expected scalar type Double but found Float</strong></td></tr></table>
@@ -60,6 +60,6 @@ except ValueError:
     pass
 ```
 
-<em>Now you can also set the roc_auc_score to be zero if there is only one class present. However, I wouldn't do this. I guess your test data is highly unbalanced. I would suggest to use stratified K-fold instead so that you at least have both classes present.</em>
+<em>Now you can also set the roc_auc_score to be zero if there is only one class present. However, I wouldn't do this. I guess your test data is highly unbalanced. I would suggest using a stratified K-fold instead so that you at least have both classes present.</em>
 
 
