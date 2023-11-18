@@ -1,16 +1,31 @@
 ---
 layout: page
-title: Some errors encountered in the use of pytorch on Cuda
+title: Some errors encountered in the use of PyTorch on Cuda
 permalink: /share/Experience/231106_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"RuntimeError: Boolean value of Tensor with more than one value is ambiguous" </strong></td></tr></table>
+
+<em>The general meaning is that the tensor contains multiple (more than 1 but not 1) boolean values, which is unclear, that is, it cannot be compared. The reason for the error may be that the loss function is declared without parentheses or the callable object is used without parentheses.</em>
+
+```python
+loss_function=nn.MSELoss   # correct
+loss_function=nn.MSELoss() # incorrect
+```
+
+<em> More information can be found in the following link: </em>
+
+<em><a href="https://blog.csdn.net/weixin_43818631/article/details/122255929" title="">RuntimeError: Boolean value of Tensor with more than one value is ambiguous</a> </em>
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"ValueError: multilabel-indicator format is not supported" </strong></td></tr></table>
 
-<em>This is an error encountered in running "fpr, tpr, threshholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the problem is solved.</em>
+<em>This is an error encountered in running "fpr, tpr, thresholds = metrics.roc_curve(actual, pred, pos_label=1)". At first, the shape of actual and pred are (batch_size, seq) which meets this error. Then I reshape the shape to 1 dimension and the problem is solved.</em>
 
 <em>This function expects inputs in a certain format, usually either a 1D array for binary classification or a 2D array for multi-class classification. Adjusting the shape of your input arrays to match these expectations can help resolve this issue. By using .ravel() or another method to reshape your actual and pred arrays to the desired format, you can avoid the error related to the shape mismatch when using metrics.roc_curve(). </em>
 
-<em>In addition, there is a useful function torch.masked_select(x,mask) which can mask the noise in x according to the boolean in mask. Note that the value in mask is boolean not 0 or 1. More information can be found in the following link: </em>
+<em>In addition, there is a useful function torch.masked_select(x, mask) which can mask the noise in x according to the boolean in the mask. Note that the value in mask is boolean not 0 or 1. More information can be found in the following link: </em>
 
 <em><a href="https://zhuanlan.zhihu.com/p/348035584" title="">PyTorch中的masked_select选择函数</a> </em>
 
