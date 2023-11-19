@@ -27,3 +27,37 @@ rshft_seqs.append(FloatTensor(r_seq[1:]))
 
 <em>In short, the purpose of doing the 'shift' operation is to ensure that the input information at the previous moment predicts the information at the next moment. If the 'shift' operation is not performed, then the current moment will be input to predict the current moment, resulting in untrustworthy model effects, or even AUC=1, ACC=1 occurs.</em>
 
+
+<table><tr><td bgcolor=lightgray><strong>"The 'mask' operation in LSTM or other sequential model" </strong></td></tr></table>
+
+<em>In LSTM or other sequential model applications, the 'shift' operation is another important process step. First, mask can eliminate the negative effect of the padding value. In addition, owing to the use of 'shift' operation, the mask needs to be merged to ensure the validation.</em>
+
+<em>The following is an example referring to the code from <a href="https://github.com/hcnoh/knowledge-tracing-collection-pytorch/blob/main/models/utils.py" title="">utils.py</a></em>
+
+```python
+mask_seqs = (q_seqs != pad_val) * (qshft_seqs != pad_val)
+
+q_seqs, r_seqs, qshft_seqs, rshft_seqs = \
+    q_seqs * mask_seqs, r_seqs * mask_seqs, qshft_seqs * mask_seqs, \
+    rshft_seqs * mask_seqs
+```
+
+1. `mask_seqs = (q_seqs != pad_val) * (qshft_seqs != pad_val)`: This line creates a boolean mask sequence `mask_seqs`. It is formed by performing a logical AND operation between two boolean value sequences to identify positions that are not padding values. If the elements in `q_seqs` and `qshft_seqs` are not equal to `pad_val` (i.e., non-padding values), the corresponding positions in `mask_seqs` are set to True; otherwise, they are set to False.
+
+2. `q_seqs, r_seqs, qshft_seqs, rshft_seqs = \ q_seqs * mask_seqs, r_seqs * mask_seqs, qshft_seqs * mask_seqs, \ rshft_seqs * mask_seqs`: These lines use the mask `mask_seqs` to zero out padding values in input and target sequences. `q_seqs` and `r_seqs` represent input sequences, while `qshft_seqs` and `rshft_seqs` represent target sequences. Multiplying by the mask `mask_seqs` zeros out the values in input and target sequences at positions corresponding to padding values.
+
+<em>The following is an example:</em>
+
+```python
+a = [1,2,3,0,0]
+in = [1,2,3,0]
+mask_in = [True,True,True,False]
+out = [2,3,0,0]
+mask_out = [True,True,False,False]
+
+mask = mask_in * mask_out = [True,True,False,False]
+
+in * mask = [1,2,0,0]
+out * mask = [2,3,0,0]
+```
+
