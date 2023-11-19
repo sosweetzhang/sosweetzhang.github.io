@@ -4,6 +4,26 @@ title: Some useful functions in Pytorch
 permalink: /share/Experience/231118_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"torch.nn.Dropout()" </strong></td></tr></table>
+
+<em>Dropout is a trick proposed by Mr. Hinton for training. In pytorch, in addition to the original usage, there is also the usage of data enhancement (mentioned later).
+The first thing to know is that dropout is specifically used for training. During the inference phase, dropout needs to be turned off, and model.eval() will do this.</em>
+
+<em>The usual explanation of dropout is: in the forward propagation of the training process, each neuron is in an inactive state with a certain probability p. To achieve the effect of reducing overfitting.</em>
+
+<em>If dropout is added to the input tensor, then, This operation means that there is a certain probability that the elements at each position of x will return to 0, in order to simulate the data loss of certain channels in real life and achieve the purpose of data augmentation.</em>
+
+```python
+x = torch.randn(20, 16)
+dropout = nn.Dropout(p=0.2)
+x_drop = dropout(x)
+```
+<em>More information can be found in the following link: </em>
+
+<em><a href="https://blog.csdn.net/leviopku/article/details/120786990" title="">pytorch中nn.Dropout的使用技巧</a> </em>
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"torch.gather()" </strong></td></tr></table>
 
 <em>The torch.gather function in PyTorch is used to gather values along a specified axis of a tensor according to specified indices. It allows you to select specific elements or sub-tensors from the input tensor based on the provided index tensor.</em>
