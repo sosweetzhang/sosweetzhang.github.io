@@ -4,6 +4,22 @@ title: Some errors encountered in the use of PyTorch on Cuda
 permalink: /share/Experience/231106_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"{RuntimeError}Expected a 'cuda' device type for generator but found 'cpu'" </strong></td></tr></table>
+
+<em>This is an error encountered in the use of "torch.utils.data.random_split". And it is solved by adding the "generator=torch.Generator(device=device)" as follows:</em>
+
+```python
+train_dataset, validate_dataset = torch.utils.data.random_split(dataset, [train_size, validate_size]) # incorrect
+train_dataset, validate_dataset = torch.utils.data.random_split(dataset, [train_size, validate_size], generator=torch.Generator(device=device)) # correct
+```
+
+<em> More information can be found in the following links: </em>
+
+<em><a href="https://blog.csdn.net/weixin_45809449/article/details/123635839" title="">Expected a ‘cuda‘ device type for generator but found ‘cpu‘的解决方法</a> </em>
+
+<em><a href="https://discuss.pytorch.org/t/runtimeerror-expected-a-cuda-device-type-for-generator-but-found-cpu/161463" title="">RuntimeError: Expected a ‘cuda’ device type for generator but found ‘CPU’</a> </em>
+
+
 <table><tr><td bgcolor=lightgray><strong>"RuntimeError: Boolean value of Tensor with more than one value is ambiguous" </strong></td></tr></table>
 
 <em>The general meaning is that the tensor contains multiple (more than 1 but not 1) boolean values, which is unclear, that is, it cannot be compared. The reason for the error may be that the loss function is declared without parentheses or the callable object is used without parentheses.</em>
