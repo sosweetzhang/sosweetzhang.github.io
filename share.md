@@ -14,5 +14,6 @@ permalink: /share/
 - [Some tips on use of Linux server](/share/Experience/Some_tips_on_use_of_Linux_server.md), _Nov 2023_.
 - [Some useful functions in Pytorch](/share/Experience/Some_useful_functions_in_Pytorch.md), _Nov 2023_.
 - [Some insights from using LSTM in KT](/share/Experience/Some_insights_from_using_LSTM_in_KT.md), _Nov 2023_.
+- [Summary of deep learning project experience](share/Experience/Summary_of_deep_learning_project_experience.md), _Nov 2023_.
 
 
