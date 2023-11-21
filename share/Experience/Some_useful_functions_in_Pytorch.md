@@ -4,6 +4,27 @@ title: Some useful functions in Pytorch
 permalink: /share/Experience/231118_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"torch.nn.BatchNorm1d()" </strong></td></tr></table>
+
+<em>torch.nn.BatchNorm1d(num_features, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</em>
+
+<em>The other parameters here are not important, just look at num_features. num_features is the dimension you need to normalize.
+nn.BatchNorm1d itself is not a function that outputs the normalized result given an input matrix. Instead, it defines a method and then uses this method to perform normalization.
+Below is an example:</em>
+
+```python
+BN = nn.BatchNorm1d(100)
+input = torch.randn(20, 100)
+output = m(input)
+```
+
+<em>We first define a normalized function BN, the dimension to be normalized is 100, and other parameters are default. Then randomly initialize a 20×100 matrix input, and then use BN to normalize this matrix.
+The input of the function can be two-dimensional or three-dimensional. When the input dimension is (N, C), BN will normalize the C dimension; when the input dimension is (N, C, L), the normalized dimension is also the C dimension.</em>
+
+<em>reference: <a href="https://blog.csdn.net/qsmx666/article/details/109527726" title="">pytorch：nn.BatchNorm1d()用法介绍</a> </em>
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"torch.nn.Dropout()" </strong></td></tr></table>
 
 <em>Dropout is a trick proposed by Mr. Hinton for training. In pytorch, in addition to the original usage, there is also the usage of data enhancement (mentioned later).
