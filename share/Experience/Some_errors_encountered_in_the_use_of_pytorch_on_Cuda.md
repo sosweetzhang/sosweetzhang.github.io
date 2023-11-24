@@ -94,3 +94,12 @@ except ValueError:
 <em>Now you can also set the roc_auc_score to be zero if there is only one class present. However, I wouldn't do this. I guess your test data is highly unbalanced. I would suggest using a stratified K-fold instead so that you at least have both classes present.</em>
 
 
+<table><tr><td bgcolor=lightgray><strong>Import "cv2" could not be resolved. ModuleNotFoundError: No module named 'cv2'</strong></td></tr></table>
+
+<em>It just happened to me and I solved it by installing both opencv-python and opencv-python-headless with pip and reloading the Visual Studio Code window right after it.</em>
+
+<em>To install the needed packages, just run this command in the terminal:</em>
+
+```python
+$ pip install opencv-python opencv-python-headless
+```
