@@ -9,16 +9,27 @@ permalink: /share/Experience/231106_2/
 
 <em>Here are some useful orders：</em>
 
-_screen -S yourname -> 新建一个叫yourname的session_
+_screen -S yourname -> Create a new session named yourname_
 
-_screen -ls -> 列出当前所有的session_
+_screen -ls -> List all existing sessions_
 
-_screen -r yourname -> 回到yourname这个session_
+_screen -r yourname -> Come back to the session named yourname_
 
-_screen -d yourname -> 远程detach某个session_
+_screen -d yourname -> Detach session named yourname remotely_
 
-_screen -d -r yourname -> 结束当前session并回到yourname这个session_
+_screen -d -r yourname -> End the session and return to yourname session_
 
-_screen -X -S yourname quit -> 杀死yourname这个session_
+_screen -X -S yourname quit -> Kill the session named yourname_
 
 <em><a href="https://www.cnblogs.com/mchina/archive/2013/01/30/2880680.html" title="">linux screen 命令详解</a> </em>
+
+
+<table><tr><td bgcolor=lightgray><strong>Introduction to Nvidia-smi and description of common commands and parameters</strong></td></tr></table>
+
+<em>Here are some useful orders：</em>
+
+_nvidia-smi -> Show all basic information about the current GPU
+
+_nvidia-smi -L -> List all aviliable NVIDIA devices_
+
+<em><a href="https://blog.csdn.net/C_chuxin/article/details/82993350" title="">Nvidia-smi简介及常用指令及其参数说明</a> </em>
