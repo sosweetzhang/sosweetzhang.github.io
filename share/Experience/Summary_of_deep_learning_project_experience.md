@@ -52,6 +52,7 @@ permalink: /share/Experience/231121_1/
 
 <em>More information can be found in the following links: </em><br>
 <em><a href="https://blog.csdn.net/ytusdc/article/details/107738749" title="">神经网络调参：loss 问题汇总（震荡/剧烈抖动，loss不收敛/不下降）</a> </em>
+<em><a href="https://tsinghua-gongjing.github.io/posts/DL-tricks.html" title="">深度学习调参技巧</a> </em>
 <em><a href="https://blog.csdn.net/qq_41554005/article/details/119767740" title="">Pytorch 模型 查看网络参数的梯度以及参数更新是否正确，优化器学习率设置固定的学习率，分层设置学习率</a> </em>
 
 
