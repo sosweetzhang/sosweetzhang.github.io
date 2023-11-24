@@ -4,6 +4,15 @@ title: Some useful functions in Pytorch
 permalink: /share/Experience/231118_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>Torch Functions for Matrix Operations</strong></td></tr></table>
+
+- `torch.mul()`: _Performs element-wise multiplication (same as the multiplication symbol). Requires matrices to have the same dimensions. Broadcasting is allowed if the first dimension differs._
+- `torch.mm()`: _Performs simple 2D matrix multiplication. Extensions include functions like `matmul()` and `bmm()`._
+- `torch.matmul()`: _Performs matrix multiplication. When the inputs are two 2D matrices, it behaves similar to `torch.mm()`. If the inputs are a 3D and a 2D matrix, it considers the first dimension of the 3D tensor as batch size and performs matrix multiplication on the last two dimensions, resulting in a 3D tensor with unchanged batch size. When both inputs are 3D, it broadcasts the first dimension to match and then performs matrix multiplication on the last two dimensions._
+- `np.dot()`: _If two vectors of the same size are passed, it performs a dot product and returns a scalar. If two matrices are passed, it performs matrix multiplication._
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"torch.nn.BatchNorm1d()" </strong></td></tr></table>
 
 <em>torch.nn.BatchNorm1d(num_features, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)</em>
