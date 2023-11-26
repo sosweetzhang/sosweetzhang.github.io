@@ -4,6 +4,12 @@ title: Some errors encountered in the use of PyTorch on Cuda
 permalink: /share/Experience/231106_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling cublasCreate(handle)" </strong></td></tr></table>
+
+<em>This error might be raised, if you are running out of memory and cublas fails to create the handle, so try to reduce the memory usage e.g. via a smaller batch size.</em>
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"{RuntimeError}Expected a 'cuda' device type for generator but found 'cpu'" </strong></td></tr></table>
 
 <em>This is an error encountered in the use of "torch.utils.data.random_split". And it is solved by adding the "generator=torch.Generator(device=device)" as follows:</em>
