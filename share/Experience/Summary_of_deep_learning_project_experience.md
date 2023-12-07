@@ -51,9 +51,9 @@ permalink: /share/Experience/231121_1/
    3.8. Inadequate training time<br>
 
 <em>More information can be found in the following links: </em><br>
-<em><a href="https://blog.csdn.net/ytusdc/article/details/107738749" title="">神经网络调参：loss 问题汇总（震荡/剧烈抖动，loss不收敛/不下降）</a> </em>
-<em><a href="https://tsinghua-gongjing.github.io/posts/DL-tricks.html" title="">深度学习调参技巧</a> </em>
-<em><a href="https://blog.csdn.net/qq_41554005/article/details/119767740" title="">Pytorch 模型 查看网络参数的梯度以及参数更新是否正确，优化器学习率设置固定的学习率，分层设置学习率</a> </em>
+<em><a href="https://blog.csdn.net/ytusdc/article/details/107738749" title="">神经网络调参：loss 问题汇总（震荡/剧烈抖动，loss不收敛/不下降）</a> </em><br>
+<em><a href="https://tsinghua-gongjing.github.io/posts/DL-tricks.html" title="">深度学习调参技巧</a> </em><br>
+<em><a href="https://blog.csdn.net/qq_41554005/article/details/119767740" title="">Pytorch 模型 查看网络参数的梯度以及参数更新是否正确，优化器学习率设置固定的学习率，分层设置学习率</a> </em><br>
 
 
 
@@ -101,4 +101,19 @@ def obtain_confusion_matrix(actual, pred):
 ```
 
 _1. obtain_auc(actual, pred) -> actual is discrete (e.g. 0,1) and pred is continuous (e.g. 0.3,0.8). To plot the ROC curve, it's necessary to sort the probability values indicating each test sample's likelihood of belonging to the positive class in descending order._
+
+
+<table><tr><td bgcolor=lightgray><strong>"Python json.loads shows ValueError: Extra data" </strong></td></tr></table>
+
+<em>Getting the error like ValueError: Extra data: line 88 column 2 - line 50607 column 2 (char 3077 - 1868399)</em><br>
+<em>Error can be solved by just iterating over the file and loading each line as JSON in the loop:</em><br>
+```python
+tweets = []
+with open('tweets.json', 'r') as file:
+    for line in file:
+        tweets.append(json.loads(line))
+```
+<em>This avoids storing intermediate python objects. As long as you write one full tweet per append() call, this should work.</em>
+
+
 
