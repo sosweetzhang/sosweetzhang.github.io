@@ -135,17 +135,23 @@ def obtain_confusion_matrix(actual, pred):
 _1. obtain_auc(actual, pred) -> actual is discrete (e.g. 0,1) and pred is continuous (e.g. 0.3,0.8). To plot the ROC curve, it's necessary to sort the probability values indicating each test sample's likelihood of belonging to the positive class in descending order._
 
 
-<table><tr><td bgcolor=lightgray><strong>"Python json.loads shows ValueError: Extra data" </strong></td></tr></table>
 
-<em>Getting the error like ValueError: Extra data: line 88 column 2 - line 50607 column 2 (char 3077 - 1868399)</em><br>
-<em>Error can be solved by just iterating over the file and loading each line as JSON in the loop:</em><br>
-```python
-tweets = []
-with open('tweets.json', 'r') as file:
-    for line in file:
-        tweets.append(json.loads(line))
-```
-<em>This avoids storing intermediate python objects. As long as you write one full tweet per append() call, this should work.</em>
+
+<table><tr><td bgcolor=lightgray><strong>"Upsampling, Downsampling and Negative Sampling" </strong></td></tr></table>
+
+1. **_Upsampling_**:
+   - _Definition_: Upsampling is an image processing technique used to enhance the resolution and quality of an image by increasing the number of pixels. It expands the image to higher resolutions, revealing more details and information.
+   - _Methods_: Common methods of upsampling in image processing include bilinear interpolation, bicubic interpolation, and deconvolution. These methods use existing pixel values to compute new pixel values, thereby increasing the size and resolution of the image.
+
+2. **_Downsampling_**:
+   - _Definition_: Downsampling is an image processing technique used to reduce the resolution and size of an image by decreasing the number of pixels. It decreases the storage and processing requirements of an image.
+   - _Methods_: Common downsampling methods include average pooling, max pooling, and convolutional layers with adjusted strides. These methods merge pixel values into smaller regions and select representative pixel values to reduce the image's size and number of pixels.
+
+3. **_Negative Sampling_**:
+   - _Definition_: Negative Sampling is a sampling technique in machine learning used for model training, particularly in dealing with imbalanced class data. In natural language processing or recommendation systems, negative sampling reduces the number of negative samples to improve model training.
+   - _Methods_: Negative sampling balances the ratio of positive and negative samples by selecting a small number of negative samples from the dataset, thereby enhancing the model's performance and generalization.
+
+
 
 
 
