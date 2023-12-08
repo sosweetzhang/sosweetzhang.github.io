@@ -109,3 +109,16 @@ except ValueError:
 ```python
 $ pip install opencv-python opencv-python-headless
 ```
+
+
+<table><tr><td bgcolor=lightgray><strong>"Python json.loads shows ValueError: Extra data" </strong></td></tr></table>
+
+<em>Getting the error like ValueError: Extra data: line 88 column 2 - line 50607 column 2 (char 3077 - 1868399)</em><br>
+<em>Error can be solved by just iterating over the file and loading each line as JSON in the loop:</em><br>
+```python
+tweets = []
+with open('tweets.json', 'r') as file:
+    for line in file:
+        tweets.append(json.loads(line))
+```
+<em>This avoids storing intermediate python objects. As long as you write one full tweet per append() call, this should work.</em>
