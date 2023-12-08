@@ -4,6 +4,38 @@ title: Summary of Deep Learning Project Experience
 permalink: /share/Experience/231121_1/
 ---
 
+<table><tr><td bgcolor=lightgray><strong>"The whole process of data modeling and analysis" </strong></td></tr></table>
+
+<em>Data modeling can be divided into several steps:</em>
+
+_1. **Define Objectives**: Clearly define the business problem and determine objectives._
+
+_2. **Data Understanding and Acquisition**: Acquire and understand data, followed by descriptive analysis._
+
+_3. **Data Cleaning and Preprocessing**: Handle missing values, outliers, and duplicates._
+
+_4. **Data Restructuring**: Labeling, standardization, etc.; further cleaning based on actual situations._
+
+_5. **Descriptive Statistics and Insights**: Draw insights from descriptive statistics, forming the initial report._
+
+_6. **Feature Selection and Model Selection**: Select variables and algorithms._
+
+_7. **Dataset Partitioning and Model Construction**: Split dataset, set parameters, load algorithms, and build the model._
+
+_8. **Model Evaluation**: Evaluate the model's performance._
+
+_9. **Model Tuning**: Fine-tune the model for better results._
+
+_10. **Output Rules and Presentation**: Determine output rules, load the model, and present results._
+
+_11. **Model Deployment**: Deploy the model for practical use._
+
+<em>More information can be found in the following link: </em><br>
+<em><a href="https://zhuanlan.zhihu.com/p/558520007" title="">数据建模分析的全流程</a> </em>
+
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"A complete Pytorch deep learning project code structure and project release guide" </strong></td></tr></table>
 
 <em>A common project structure is as follows:</em>
