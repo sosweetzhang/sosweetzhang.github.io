@@ -153,5 +153,14 @@ _1. obtain_auc(actual, pred) -> actual is discrete (e.g. 0,1) and pred is contin
 
 
 
+<table><tr><td bgcolor=lightgray><strong>"Hard Labels, Soft Labels, and Pseudo Labels" </strong></td></tr></table>
 
+1. **_Hard Labels_**:
+_Hard labels refer to the original, discrete labels used in supervised learning tasks. In classification problems, hard labels typically represent each sample with a clear, unique class label, such as 0 or 1, or index values denoting different classes._
+
+2. **_Soft Labels_**:
+_Soft labels differ from hard labels in that they aren't strict discrete values but instead represent a probability distribution or continuous values indicating the likelihood of a sample belonging to each class. These labels provide more information by not only revealing the true class of the sample but also offering probabilities for other classes. Soft labels are often used in training models, especially in deep learning tasks, where certain loss functions (like cross-entropy loss) support the use of soft labels._
+
+3. **_Pseudo Labels_**:
+_Pseudo labels are a type of semi-supervised learning technique that involves using the model's predictions on unlabeled data as the labels for that data. Initially, a trained model predicts labels for unlabeled data, and these predictions _
 
