@@ -52,5 +52,5 @@ In my relentless pursuit of AI excellence, I aspire to not only push the boundar
 
 <br>
 <br>
-Download my <a href="https://github.com/sosweetzhang/sosweetzhang.github.io/blob/main/profile.jpg" download="Zhang Haotian">CV</a><br>
+Download my <a href="https://github.com/sosweetzhang/sosweetzhang.github.io/blob/main/CV_20240105.png" download="Zhang Haotian">CV</a><br>
 <br>
