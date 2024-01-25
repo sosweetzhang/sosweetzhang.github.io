@@ -4,6 +4,13 @@ title: Some errors encountered in the use of PyTorch on Cuda
 permalink: /share/Experience/231106_1/
 ---
 
+
+<table><tr><td bgcolor=lightgray><strong>"AttributeError: Can't get attribute 'Model Name' on <module '__main__' from 'XXX.py'>" </strong></td></tr></table>
+
+<em>How I solved it by adding "import Model Name" to the same file that load the model. I think some hows the namespace is hard code when you save the model. So then it can’t search when you load the model again.</em>
+
+
+
 <table><tr><td bgcolor=lightgray><strong>"CUDA error: CUBLAS_STATUS_NOT_INITIALIZED when calling cublasCreate(handle)" </strong></td></tr></table>
 
 <em>This error might be raised, if you are running out of memory and cublas fails to create the handle, so try to reduce the memory usage e.g. via a smaller batch size.</em>
