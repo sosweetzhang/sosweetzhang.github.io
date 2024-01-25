@@ -4,6 +4,7 @@ title: Some useful functions in Pytorch
 permalink: /share/Experience/231118_1/
 ---
 
+
 <table><tr><td bgcolor=lightgray><strong>Torch Functions for Matrix Operations</strong></td></tr></table>
 
 - `torch.mul()`: _Performs element-wise multiplication (same as the multiplication symbol). Requires matrices to have the same dimensions. Broadcasting is allowed if the first dimension differs._
@@ -57,6 +58,15 @@ x_drop = dropout(x)
 <table><tr><td bgcolor=lightgray><strong>"torch.gather()" </strong></td></tr></table>
 
 <em>The torch.gather function in PyTorch is used to gather values along a specified axis of a tensor according to specified indices. It allows you to select specific elements or sub-tensors from the input tensor based on the provided index tensor.</em>
+
+```python
+A = torch.randn(32, 49, 10)
+B = torch.randint(0, 10, (32, 49))
+
+# Extracts the value of the third dimension in A using the value in B as an index and adjusts the shape of A
+A_new = torch.gather(A, 2, B.unsqueeze(-1))
+A_new = A_new.squeeze(-1)
+```
 
 <em>More information can be found in the following link: </em>
 
