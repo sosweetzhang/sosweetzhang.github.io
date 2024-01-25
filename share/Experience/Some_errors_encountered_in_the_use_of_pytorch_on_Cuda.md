@@ -7,7 +7,7 @@ permalink: /share/Experience/231106_1/
 
 <table><tr><td bgcolor=lightgray><strong>"AttributeError: Can't get attribute 'Model Name' on <module '__main__' from 'XXX.py'>" </strong></td></tr></table>
 
-<em>How I solved it by adding "import Model Name" to the same file that load the model. I think some hows the namespace is hard code when you save the model. So then it can’t search when you load the model again.</em>
+<em>This error might be raised when using "torch.load(Model Name)" to load a pre-trained model (e.g. "XXX.pt"). How I solved it by adding "import Model Name" to the same file that load the model. I think some hows the namespace is hard code when you save the model. So then it can’t search when you load the model again.</em>
 
 
 
