@@ -46,6 +46,7 @@ In my relentless pursuit of AI excellence, I aspire to not only push the boundar
 
 ## Services & Awards
 
+- National Scholarship for Graduate Students (Top 0.2%), _Nov 2024_.
 - Excellent Paper Award for CCFAI'23, _Aug 2023_.
 - Excellent Bachelor Dissertation Award, _Jun 2023_.
 
